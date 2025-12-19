@@ -30,7 +30,6 @@ class OrderManager: #Melanggar SRP, OCP, DIP
         order.status = "paid"
         return True
 
-
 # --- ABSTRAKSI (kontrak Untuk OCP/DIP) ---
 class IPaymentProcessor(ABC):
     """Kontrak: Semua prosesor pembayaran harus punya method 'process'."""
