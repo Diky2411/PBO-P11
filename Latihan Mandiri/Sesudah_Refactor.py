@@ -71,7 +71,7 @@ if __name__ == "__main__":
             print(f"Validasi BERKAS: Berkas {mahasiswa.nama} Lengkap.")
             return True
 
-    # Gunakan list baru yang menyertakan BerkasValidator
+    #list baru yang menyertakan BerkasValidator
     list_validasi_baru = [SksValidator(), PrasyaratValidator(), BerkasValidator()]
     
     app_new = RegistrasiService(list_validasi_baru)
